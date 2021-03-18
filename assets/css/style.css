@@ -305,6 +305,10 @@ header {
     margin-bottom: 50px;
 }
 
+.works-step p {
+    padding-top: 15px;
+}
+
 .step-box-left .works-step div {
     color: #5363a5;
     border: 2px solid #5363a5;
@@ -313,7 +317,7 @@ header {
     height: 55px;
     width: 55px;
     text-align: center;
-    padding: 5px;
+    padding: 8px;
     float: left;
     font-size: 150%;
     margin-right: 25px;
@@ -327,8 +331,8 @@ header {
     height: 55px;
     width: 55px;
     text-align: center;
-    padding: 5px;
+    padding: 8px;
     float: right;
     font-size: 150%;
-    margin-right: 25px;
+    margin-left: 25px;
 }
