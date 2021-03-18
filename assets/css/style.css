@@ -102,7 +102,7 @@ h3 {
 
 /*--- Icons ---*/
 
-ion-icon {
+.icon-abouth ion-icon {
     
     font-size: 300%;
     display: block;
@@ -111,6 +111,33 @@ ion-icon {
     margin-top: 15px;
     
   }
+
+.section-team ion-icon {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #5373f7;
+    font-size: 120%;
+    line-height: 120%;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+/*--- Links ---*/
+a:link,
+a:active {
+    color: #5373f7;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #5373f7;
+    transition: border-bottom 0.5, color 0.5s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+}
 
 /*--- Buttons ---*/
 
@@ -309,7 +336,7 @@ header {
     padding-top: 15px;
 }
 
-.step-box-left .works-step div {
+.works-step div {
     color: #5363a5;
     border: 2px solid #5363a5;
     /* display: inline-block; */
@@ -318,21 +345,30 @@ header {
     width: 55px;
     text-align: center;
     padding: 8px;
-    float: left;
     font-size: 150%;
+}
+
+.step-box-left .works-step div {
+    float: left;
     margin-right: 25px;
 }
 
 .step-box-rigth .works-step div {
-    color: #5363a5;
-    border: 2px solid #5363a5;
-    /* display: inline-block; */
-    border-radius: 50%;
-    height: 55px;
-    width: 55px;
-    text-align: center;
-    padding: 8px;
+
     float: right;
-    font-size: 150%;
     margin-left: 25px;
+}
+
+/*-------------------*/
+/* Developers*/
+/*-------------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.developer {
+    margin-bottom: 5px;
 }
