@@ -125,17 +125,16 @@ h3 {
 }
 
 /*--- Links ---*/
-a:link,
-a:active {
-    color: #5373f7;
+.section-team a:link,
+.section-team a:active {
+    color: #2da133;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #5373f7;
     transition: border-bottom 0.5, color 0.5s;
 }
 
-a:hover,
-a:active {
+.section-team a:hover,
+.section-team a:active {
     color: #555;
 }
 
@@ -317,11 +316,8 @@ header {
 }
 
 .step-box-rigth:last-child {
-    
     padding-left: 3%;
     margin-top: 30px;
-    
-    
 }
 
 .app-screen {
@@ -372,3 +368,29 @@ header {
 .developer {
     margin-bottom: 5px;
 }
+
+/*-------------------*/
+/* Footer*/
+/*-------------------*/
+
+footer {
+    background-color: #323747;
+    color: #fff;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.copyrigth {
+    float: right;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin: 20px;
+}
+
