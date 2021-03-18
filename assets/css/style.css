@@ -363,6 +363,7 @@ header {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+    border-radius: 50%;
 }
 
 .developer {
