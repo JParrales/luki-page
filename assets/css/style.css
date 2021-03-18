@@ -127,7 +127,7 @@ h3 {
 /*--- Links ---*/
 .section-team a:link,
 .section-team a:active {
-    color: #2da133;
+    color: #5373f7;
     text-decoration: none;
     padding-bottom: 1px;
     transition: border-bottom 0.5, color 0.5s;
@@ -375,6 +375,7 @@ header {
 
 footer {
     background-color: #323747;
+    font-size: 80%;
     color: #fff;
 }
 
@@ -387,10 +388,24 @@ footer {
     float: right;
     text-align: center;
     margin-top: 25px;
+    color: #fff;
 }
 
-.footer-nav li {
+.footer-nav li{
     display: inline-block;
     margin: 20px;
 }
 
+.footer-nav li a{
+    text-decoration: none;
+    color: #fff    
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    transition: color 0.5s;
+}
+
+.footer-nav li a:hover{
+    color: #ddd4d4;
+}
