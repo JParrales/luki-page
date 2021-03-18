@@ -308,7 +308,7 @@ header {
 .step-box-left .works-step div {
     color: #5363a5;
     border: 2px solid #5363a5;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 50%;
     height: 55px;
     width: 55px;
@@ -322,7 +322,7 @@ header {
 .step-box-rigth .works-step div {
     color: #5363a5;
     border: 2px solid #5363a5;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 50%;
     height: 55px;
     width: 55px;
