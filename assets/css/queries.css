@@ -9,11 +9,66 @@
 }
 
 @media only screen and (max-width: 1023px){
+    body {font-size: 18px;}
+    section { padding: 60px 0}
+    
+    .long-copy {
+        text-align: justify;
+        width: 80%;
+        margin-left: 10%;
+    }
 
+    .step-box{ margin-top: 10px;}
 
-@media only screen and (max-width: 767px){
+    .step-box-left:last-child { margin-top: 95px;}
+
+    .works-step { margin-bottom: 50px;}
+
+    .app-screen {width: 70%;}
+
+    .section-team ion-icon { 
+        width: 20px;
+        margin-right: 5px;
+    }
+    .developer { font-size: 80%; }
+    
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 767px){
+    body { font-size: 16px;}
+    section { padding: 40px 0;}
 
+    .row,
+    .buildings-box { padding: 0 4%; }
+
+    .col {width: 100%;}
+
+    .main-nav { display: none;}
+
+    h1 { font-size: 100%;}
+    h2 { font-size: 150%;}
+
+    .long-copy {
+        text-align: justify;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .app-screen {width: 40%;}
+
+    .step-box-left:first-child { text-align: center; }
+
+
+    .works-step { margin-bottom: 20px;}
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding: 5px;
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0;}
 }
