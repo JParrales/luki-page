@@ -48,6 +48,11 @@ html {
     color: #fff;
 }
 
+.buildings-box h1 {
+    text-shadow: 1px 1px 10px #1f1f1f;
+    color: #fff;
+}
+
 .btn-ghost {
     margin-top: 20px;
 }
@@ -62,7 +67,7 @@ html {
 }
 
 section {
-    padding: 80px 0;
+    padding: 80px 0 0 0;
 }
 
 .box {
@@ -263,7 +268,7 @@ header {
 /*-------------------*/
 
 .section-abouth .long-copy{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 /*-------------------*/
@@ -311,7 +316,21 @@ header {
 /*-------------------*/
 
 .section-features {
-    background-color: #fff ;
+    background-color: #efefef ;
+    padding-bottom: 50px;
+}
+
+.feature_space {
+    margin-bottom: 50px;
+}
+
+.title_feature {
+    margin-top: 50px;
+    font-size: 22pt;
+}
+
+.title_feature span {
+    font-weight: bold;
 }
 
 .step-box-left {
@@ -330,13 +349,13 @@ header {
 
 .step-box-left:last-child {
     padding-left: 3%;
-    margin-top: 125px;
+    margin-top: 150px;
 }
 
 .step-box-rigth:first-child {
     text-align: right;
     padding-right: 3%;
-    margin-top: 125px;
+    margin-top: 150px;
 }
 
 .step-box-rigth:last-child {
@@ -346,6 +365,7 @@ header {
 
 .app-screen {
     width: 60%;
+    border-radius: 5%;
 }
 
 .android_border {
@@ -358,7 +378,7 @@ header {
 }
 
 .works-step {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .works-step p {
@@ -401,6 +421,10 @@ header {
 
 .developer {
     margin-bottom: 5px;
+}
+
+.section-team {
+    margin-bottom: 100px;
 }
 
 /*-------------------*/
